@@ -3,6 +3,7 @@ import React from "react";
 import Controls from "./Controls";
 import { render } from "react-testing-library";
 // import renderer from 'react-test-renderer';
+import "react-testing-library/cleanup-after-each";
 
 describe("the lock button", () => {
   it.skip("is disabled", () => {
